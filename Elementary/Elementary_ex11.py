@@ -7,7 +7,6 @@ def split_pairs(a):
 
     #method 2 using list comprehension to make more concise
     #[x for x in fruits if "a" in x] - list comprehension syntax with condition as filter
-   
     return [s if len(s:= a[x:x+2]) == 2 else a[x]+"_" for x in range(0,len(a),2)]
 
 

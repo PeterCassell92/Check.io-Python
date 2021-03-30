@@ -1,14 +1,16 @@
 def number_length(a: int) -> int:
-    # your code here
-    #return len(str(a)) #bool() float() int()
-    if(a):
-        x = 0
-        while a >= 1:
-            a = a /10
-            x += 1
-        return x
-    else:
-        return 1
+    #method 1
+    return len(str(a))
+
+    #demonstrating method that would be used if casting were not possible.
+    # if(a):
+    #     x = 0
+    #     while a >= 1:
+    #         a = a /10
+    #         x += 1
+    #     return x
+    # else:
+    #     return 1
     
 
 
