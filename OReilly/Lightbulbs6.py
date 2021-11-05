@@ -103,7 +103,7 @@ def sum_light(els: List[Union[datetime, Tuple[datetime, int]]],
         refined_time_periods.append(end_watching)
 
     mins_counted = 0
-    #iterate through each pair in the list. These periods represent times any lightbulb is on.
+    #iterate through each pair in the list. These periods represent times that the room is illuminated with enough lightbulbs.
     #If any of the period is included in watched period, then add this time to mins_counted
     for i in range(1,len(refined_time_periods),2):
         #get the period's end and start times, accounting for whether the start or end watching times fall within the period.
