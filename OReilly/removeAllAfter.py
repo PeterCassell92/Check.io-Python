@@ -8,7 +8,6 @@
 
 from typing import Iterable
 
-
 def remove_all_after(items: list, border: int) -> Iterable:
     #method 1 - would need try except statement so cannot be one line.
     # return items[:i+1] if (i:= items.index(border)) else items

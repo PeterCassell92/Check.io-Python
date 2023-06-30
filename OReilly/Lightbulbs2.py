@@ -49,6 +49,8 @@ if __name__ == '__main__':
     ],
     start_watching=datetime(2015, 1, 12, 10, 0, 5)) == 5
     
+
+    
     assert sum_light([
         datetime(2015, 1, 12, 10, 0, 0),
         datetime(2015, 1, 12, 10, 0, 10),
